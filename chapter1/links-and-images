@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aueb</title>
+</head>
+<body>
+    <h1>Athens University of Economics and Business</h1>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In consequuntur debitis nemo at quasi vero quas nihil, ducimus delectus aperiam amet temporibus vel nisi quis consectetur, molestias neque quisquam pariatur.</p>
+
+   <a href="https://www.aueb.gr/" target="_blank">Visit Us
+
+   </a>
+
+   <img src="./logo.png" alt="Aueb Logo">
+   
+</body>
+</html>
