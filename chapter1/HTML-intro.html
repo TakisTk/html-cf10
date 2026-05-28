@@ -86,16 +86,18 @@
             </tr>
         </tbody>
     </table>
+
     <h2>Φόρμα επικοινωνιασ</h2>
+
     <form>
+    <fieldset>
+        <legend>Personal Info</legend>
     <p>
-         
         <label for="fidFullName">Ονοματεπωνυμο:</label><br>
-        <input type="text" name="fullname" id="fidFullName"><br>
+        <input type="text" name="fullname" id="fldFullName" placeholder="Full Name"><br>
 
     </p>
    
-
     <p>
 
         <label for="">Email:</label><br>
@@ -107,6 +109,67 @@
         <label for="">κωδικος:</label><br>
         <input type="password" name="password" id="password">
     </p>
+
+    <p>
+        <label for="age">Age: </label><br>
+        <input type="number" id="fldage" min="20" max="40">
+    </p>
+
+    <p>
+        <label for="fldBirthday">Birthday:</label>
+        <input type="date" name="birthday" id="fldBirthday">
+    </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Data</legend>
+        <p>
+            SEX
+
+            <br>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="fldmale">Man</label>
+
+            <br>
+
+            <input type="radio" name="gender" id="Woman" value="female">
+            <label for="fldFemale">Woman</label>
+
+        </p>
+
+        <p>Coding 
+            <br>
+            
+            <input type="checkbox" id="fldHtml" value="html">
+            <label for="fldHtml">HTML</label>
+
+            <br>
+
+            <input type="checkbox" name="" id="fldCss" value="css">
+            <label for="fldCss">CSS</label>
+
+        </p>
+
+        <p>
+            <label for="fldCity">City</label>
+            <select id="fldCity" required>
+                <option value="" selected disabled>Choose City</option>
+                <option value="Athens">Athens</option>
+                <option value="London">London</option>
+            </select>
+            
+        </p>
+
+        <p>
+            <textarea rows="5" cols="40" placeholder="Data ...">
+            </textarea>
+        </p>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    
     </form>
 </body>
 </html>
